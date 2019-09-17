@@ -116,26 +116,28 @@ section {
 
 .leftcolumn {   
 	float: left;
-	width: 75%;
+	width: 65%;
   }
 
   .rightcolumn {
-	float: left;
+	float: right;
 	width: 25%;
-	background-color: #dfdfdf;
-	padding-left: 20px;
+	background-color: #ffffff;
+	padding-right: 10px;
   }
 
   .pedrolucas {
 	background-color: rgb(255, 255, 255);
 	width: 100%;
-	padding: 20px;
+	padding: 0px;
   }
 
   .card {
 	background-color: white;
 	padding: 20px;
 	margin-top: 20px;
+	margin: 10px;
+	margin-left: 40px;
   }
 
 /* Sobre nós */
@@ -156,7 +158,7 @@ section {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: rgb(168, 65, 17);
 	overflow: hidden;
 	width: 100%;
 	height:0;
@@ -164,8 +166,9 @@ section {
   }
   
 .container:hover .overlay {
-	bottom: 29%;
-	height: 71%;
+	bottom: 193px;
+	height: 211px;
+	
   }
   
 .text {
@@ -198,9 +201,9 @@ section {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: rgb(168, 65, 17);
 	overflow: hidden;
-	width: 85%;
+	width: 182px;
 	height:0;
 	transition: .5s ease;
 	top: 6%;
@@ -208,8 +211,8 @@ section {
   }
   
 #jv:hover #overlay {
-	bottom: 25px;
-	height: 196px;
+	bottom: 100%;
+	height: 160px;
 	
   }
   
@@ -224,3 +227,18 @@ section {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
   }
+
+.fakeimg #artigo1 {
+	padding-top: 50px;
+	margin-left:15px; 
+	margin-top: 0px;
+}
+
+#artigo1:hover {
+	width: 100%;
+	height: 100%;
+}
+
+.rightcolumn #maisinfo {
+	
+}
