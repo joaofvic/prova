@@ -164,7 +164,7 @@ section {
   }
   
 .container:hover .overlay {
-	top: 0;
+	bottom: 16%;
 	height: 84%;
   }
   
