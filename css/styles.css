@@ -66,7 +66,8 @@ section {
 	float: left;
 	width: 50px;
 	position: fixed;
-	top: 25%;  /* Set a width if you like */
+	top: 20%;  /* Set a width if you like */
+	opacity : 0.5;
   }
   
   .vertical-menu a {
@@ -75,6 +76,7 @@ section {
 	display: block; /* Make the links appear below each other */
 	padding: 12 px; /* Add some padding */
 	text-decoration: none; /* Remove underline from links */
+	
   }
   
   .vertical-menu a:hover {
@@ -82,7 +84,32 @@ section {
   }
   
  
+
+
+
+  .vertical-menu2 {
+	float: left;
+	width: 50px;
+	position: fixed;
+	top: 56%;  /* Set a width if you like */
+	opacity : 0.5;
   }
+  
+  .vertical-menu2 a {
+	background-color: #eee; /* cor do cinza do fundo*/
+	color: black; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12 px; /* Add some padding */
+	text-decoration: none; /* remove underlines dos textos com links */
+  }
+  
+  .vertical-menu2 a:hover {
+	background-color: #ccc; /* cor de fundo do hover */
+  }
+
+
+
+
 
 #artigo {
 }
@@ -99,7 +126,7 @@ section {
 	padding-left: 20px;
   }
 
-  .fakeimg {
+  .pedrolucas {
 	background-color: #aaa;
 	width: 100%;
 	padding: 20px;
