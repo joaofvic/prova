@@ -9,8 +9,7 @@
 	background-image: url("../images/poly2.jpeg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	padding:0;
-  }
+}
 
 a {
 	color: black;
@@ -229,8 +228,8 @@ section {
   }
 
 .fakeimg #artigo1 {
-	padding-top: 50px;
-	margin-left:15px; 
+	padding-top: 65px;
+	margin-left:0px; 
 	margin-top: 0px;
 }
 
@@ -239,19 +238,3 @@ section {
 	height: 100%;
 }
 
-.rightcolumn #maisinfo {
-	
-}
-
-.leftcolumn {
-	float:left;
- 	width:60%;
- 	padding:0 20px;
-}
-
-.rightcolumn {
-  	float:left;
-  	width:20%;
-  	padding:15px;
-	margin-top:7px;
-}
