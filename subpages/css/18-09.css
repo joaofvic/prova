@@ -1,0 +1,49 @@
+.vertical-menu {
+	float: left;
+	width: 50px;
+	position: fixed;
+	top: 20%;  /* Set a width if you like */
+	opacity : 0.5;
+  }
+  
+  .vertical-menu a {
+	background-color: #eee; /* Grey background color */
+	color: black; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12 px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+	
+  }
+  
+  .vertical-menu a:hover {
+	background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+ 
+
+
+
+  .vertical-menu2 {
+	float: left;
+	width: 50px;
+	position: fixed;
+	top: 56%;  /* Set a width if you like */
+	opacity : 0.5;
+  }
+  
+  .vertical-menu2 a {
+	background-color: #eee; /* cor do cinza do fundo*/
+	color: black; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12 px; /* Add some padding */
+	text-decoration: none; /* remove underlines dos textos com links */
+  }
+  
+  .vertical-menu2 a:hover {
+	background-color: #ccc; /* cor de fundo do hover */
+  }
+
+#back {
+	background-image: url(../images/artigo1.png);
+	height: 600px;
+}
