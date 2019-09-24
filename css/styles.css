@@ -42,11 +42,15 @@
   }
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
-	top: 60px;
+	top: 70px;
 	left: 5px;
     min-width: 190px; /*largura do submenu */
     z-index: 1000;
 	display: none;
+
+	
+	
+
 	
   }
   .menu >.menu-list > li > .sub-menu > li > a {
@@ -69,7 +73,20 @@
   
 
 #time {
-	background-image: url("../images/polygonal111.png");
+	background-image: url("../images/gestãodotempo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#time2 {
+	background-image: url("../images/timemanagement.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#time3 {
+	background-image: url("../images/GESTIONDELTIEMPO.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -154,6 +171,8 @@ section {
 	margin-top: 20px;
 	margin: 10px;
 	margin-left: 40px;
+	font-family: Prime;
+	text-decoration: none;
   }
 
 /* Sobre nós */
@@ -245,10 +264,11 @@ section {
   }
 
 .fakeimg #artigo1 {
-	padding-top: 65px;
+	padding-top: 0px;
 	margin-left:0px; 
 	margin-top: 0px;
 }
+
 
 #artigo1:hover {
 	width: 100%;
