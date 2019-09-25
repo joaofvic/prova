@@ -1,12 +1,9 @@
-
-
-
 * { 
 	margin: 0 auto; 
   padding: 0; 
   
-	
 }
+
 
 .menu{
 	background: #eee;
@@ -78,7 +75,7 @@
 	width: 50px;
 	position: fixed;
 	top: 20%;  /* Set a width if you like */
-	opacity : 0.6;
+	opacity : 0.5;
   }
   
   .vertical-menu a {
@@ -103,7 +100,7 @@
 	width: 50px;
 	position: fixed;
 	top: 58%;  /* Set a width if you like */
-	opacity : 0.6;
+	opacity : 0.5;
   }
   
   .vertical-menu2 a {
@@ -126,23 +123,4 @@
 #conteudo i {
 padding-left: 500px;
 padding-top: 0px;
-
-}
-
-
-h1{
-  font-family: Agency FB;
-}
-p {
-  font-family: Bahnschrift;
-}
- #conteudopt {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%, #6d7958 0%, #68e5ae 90% );
- }
- #conteudoeng {
-  background-image: linear-gradient( 89.7deg, rgba(64,177,229,1) 6.5%, rgba(28,117,187,1) 44.1% );
- }
-
-#conteudoesp {
-  background-image: linear-gradient( 177.2deg, rgba(252,116,3,1) 22.7%, rgba(246,200,30,1) 110.5% );
 }
