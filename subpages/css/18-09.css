@@ -77,45 +77,50 @@
 	float: left;
 	width: 50px;
 	position: fixed;
-	top: 20%;  /* Set a width if you like */
-	opacity : 0.6;
+	top: 20%;  
+	
+	padding: 0px;
+
   }
   
   .vertical-menu a {
 	background-color: #eee; /* Grey background color */
 	color: black; /* Black text color */
 	display: block; /* Make the links appear below each other */
-	padding: 12px; /* Add some padding */
-	text-decoration: none; /* Remove underline from links */
-
+	padding: 8px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  opacity: 0.5;
+	
+  }
+  .vertical-menu a :hover {
+	-webkit-transform: scale(1.0);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
   }
   
-  .vertical-menu a:hover {
-	background-color: #ccc; /* Dark grey background on mouse-over */
-  }
   
- 
-
-
-
   .vertical-menu2 {
 	float: left;
 	width: 50px;
 	position: fixed;
-	top: 58%;  /* Set a width if you like */
-	opacity : 0.6;
+	top: 56%;  /* Set a width if you like */
+	
+	
   }
   
   .vertical-menu2 a {
 	background-color: #eee; /* cor do cinza do fundo*/
-	color: black; /* Black text color */
 	display: block; /* Make the links appear below each other */
-	padding: 12px; /* Add some padding */
-	text-decoration: none; /* remove underlines dos textos com links */
+	padding: 8px; /* Add some padding */
+  text-decoration: none; /* remove underlines dos textos com links */
+  opacity: 0.5;
   }
   
-  .vertical-menu2 a:hover {
-	background-color: #ccc; /* cor de fundo do hover */
+
+  .vertical-menu2 a :hover {
+	-webkit-transform: scale(1.0);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
   }
 
 #back {
