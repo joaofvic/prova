@@ -1,0 +1,433 @@
+* { 
+	margin: 0 auto; 
+	padding: 0; 
+	
+}	
+
+
+.menu{
+	background: #eee;
+	height: 70px;
+	
+  }
+
+  .menu .menu-list, .menu .sub-menu{
+	list-style: none;
+  }
+  .menu a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 19px;
+	letter-spacing:1.9px;
+	font-family: Prime;
+	
+  }
+  .menu > .menu-list > li{
+    float: left;
+	position: relative;
+	
+  }
+  .menu > .menu-list > li > a {
+    padding: 20px;
+    margin: 0 5px;
+	background: #eee;
+	
+  }
+  .menu  .menu-list  li:hover a {
+	background: #ccc;
+	
+  }
+  .menu > .menu-list > li:hover > .sub-menu {
+	display: block;
+	
+  }
+
+
+
+  .menu > .menu-list > li > .sub-menu {
+    position: absolute;
+	top: 70px;
+	left: 5px;
+    min-width: 200px; /*largura do submenu */
+    z-index: 1000;
+	display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+  .menu{
+	background: #eee;
+	height: 70px;
+	
+	
+  }
+
+
+  .menu .menu-list, .menu .subzero{
+	list-style: none;
+  }
+  .menu a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px; /*tamanho da fonte do menu inicial*/
+	letter-spacing:1.7px;
+	font-family: Prime;
+	
+  }
+  .menu > .menu-list > li{
+    float: left;
+	position: relative;
+	
+  }
+  .menu > .menu-list > li > a {
+    padding: 20px;
+    margin: 0 5px;
+	background: #eee;
+	
+  }
+  .menu  .menu-list  li:hover a {
+	background: #ccc;
+	
+  }
+  .menu > .menu-list > li:hover > .subzero {
+	display: block;
+	
+  }
+
+
+
+  .menu > .menu-list > li > .subzero {
+    position: absolute;
+	top: 60px;
+	left: 5px;
+    min-width: 210px; /*largura do submenu */
+    z-index: 1000;
+	display: none;
+	
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+  #language  {
+	  width: 210px;
+  }
+
+font {
+	font-size: 15px;
+}
+
+  
+  .menu >.menu-list > li > .sub-menu > li > a {
+	  padding: 10px 20px;
+	  font-size: 18px;
+  }
+  .menu: {
+    display: block;
+    line-height: 0;
+    height: 0;
+  }
+
+  .site-content{
+    padding: 20px;
+  }
+  h1{
+    font-size: 22px;
+    color: #000;
+  }
+  
+
+#time {
+	background-image: url("../images/gestãodotempo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#time2 {
+	background-image: url("../images/timemanagement.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#time3 {
+	background-image: url("../images/GESTIONDELTIEMPO.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+font {
+	font-family: Prime;
+	
+}
+
+section {
+	width: 100%;
+	height: 600px;
+}
+
+.vertical-menu {
+	float: left;
+	width: 50px;
+	position: fixed;
+	top: 20%;  
+	
+	padding: 0px;
+
+  }
+  
+  .vertical-menu a {
+	background-color: #eee; /* Grey background color */
+	color: black; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 8px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+		
+  }
+  .vertical-menu a :hover {
+	-webkit-transform: scale(1.0);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+  }
+  
+  
+  .vertical-menu2 {
+	float: left;
+	width: 50px;
+	position: fixed;
+	top: 56%;  /* Set a width if you like */
+	
+	
+  }
+  
+  .vertical-menu2 a {
+	background-color: #eee; /* cor do cinza do fundo*/
+	display: block; /* Make the links appear below each other */
+	padding: 8px; /* Add some padding */
+	text-decoration: none; /* remove underlines dos textos com links */
+	
+  }
+  
+
+  .vertical-menu2 a :hover {
+	-webkit-transform: scale(1.0);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+  }
+
+#artigo {
+}
+
+#pesquisa {
+	padding-top: 19px;
+	padding-left: 560px;
+	
+}
+
+
+
+.leftcolumn {   
+	float: left;
+	width: 65%;
+  }
+
+.rightcolumn {
+	float: right;
+	width: 25%;
+	background-color: #ffffff;
+	padding-right: 17px;
+	
+  }
+
+  .pedrolucas {
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	padding: 0px;
+  }
+
+  .card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	margin: 10px;
+	margin-left: 40px;
+	font-family: Prime;
+	text-decoration: none;
+  }
+
+/* Sobre nós */
+
+.container {
+	position: relative;
+	width: 100%;
+	margin: 10px;
+  }
+  
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 5px;
+	right: 2px;
+	background-color: rgb(168, 65, 17);
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;
+	top: 0.0%;
+  }
+  
+.container:hover .overlay {
+	bottom:200px;
+	height: 299px;
+	
+  }
+  
+.text {
+	white-space: nowrap; 
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+/* jv */
+#jv {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+  }
+  
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+#overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: rgb(168, 65, 17);
+	overflow: hidden;
+	width: 249px;
+	height:0;
+	transition: .5s ease;
+	top: 5.1%;
+	
+  }
+  
+#jv:hover #overlay {
+	left: 8px;
+	
+	bottom: 100%;
+	height: 230px;
+	
+  }
+  
+.text {
+	white-space: nowrap; 
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+.fakeimg #artigo1 {
+	padding-top: 0px;
+	margin-left:0px; 
+	margin-top: 0px;
+}
+
+
+#artigo1:hover {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

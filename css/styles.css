@@ -9,10 +9,10 @@
 	background: #eee;
 	height: 70px;
 	
-	
   }
+
   .menu .menu-list, .menu .sub-menu{
-    list-style: none;
+	list-style: none;
   }
   .menu a{
     color: #000;
@@ -28,35 +28,120 @@
   .menu > .menu-list > li{
     float: left;
 	position: relative;
-
+	
   }
   .menu > .menu-list > li > a {
     padding: 20px;
     margin: 0 5px;
-    background: #eee;
+	background: #eee;
+	
   }
   .menu  .menu-list  li:hover a {
-    background: #ccc;
+	background: #ccc;
+	
   }
   .menu > .menu-list > li:hover > .sub-menu {
-    display: block;
+	display: block;
+	
   }
+
+
+
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
 	top: 70px;
 	left: 5px;
-    min-width: 190px; /*largura do submenu */
+    min-width: 200px; /*largura do submenu */
     z-index: 1000;
 	display: none;
+  }
 
-	
-	
 
+
+
+
+
+
+
+
+
+  .menu{
+	background: #eee;
+	height: 70px;
+	
 	
   }
+
+
+  .menu .menu-list, .menu .subzero{
+	list-style: none;
+  }
+  .menu a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px; /*tamanho da fonte do menu inicial*/
+	letter-spacing:1.7px;
+	font-family: Prime;
+	
+  }
+  .menu > .menu-list > li{
+    float: left;
+	position: relative;
+	
+  }
+  .menu > .menu-list > li > a {
+    padding: 20px;
+    margin: 0 5px;
+	background: #eee;
+	
+  }
+  .menu  .menu-list  li:hover a {
+	background: #ccc;
+	
+  }
+  .menu > .menu-list > li:hover > .subzero {
+	display: block;
+	
+  }
+
+
+
+  .menu > .menu-list > li > .subzero {
+    position: absolute;
+	top: 60px;
+	left: 5px;
+    min-width: 210px; /*largura do submenu */
+    z-index: 1000;
+	display: none;
+	
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+#language  {
+	  width: 210px;
+  }
+
+font {
+	font-size: 15px;
+}
+
+  
   .menu >.menu-list > li > .sub-menu > li > a {
 	  padding: 10px 20px;
-	  
+	  font-size: 18px;
   }
   .menu: {
     display: block;
@@ -118,7 +203,7 @@ section {
 	display: block; /* Make the links appear below each other */
 	padding: 8px; /* Add some padding */
 	text-decoration: none; /* Remove underline from links */
-	
+		
   }
   .vertical-menu a :hover {
 	-webkit-transform: scale(1.0);
@@ -141,6 +226,7 @@ section {
 	display: block; /* Make the links appear below each other */
 	padding: 8px; /* Add some padding */
 	text-decoration: none; /* remove underlines dos textos com links */
+	
   }
   
 
@@ -152,6 +238,13 @@ section {
 
 #artigo {
 }
+
+#pesquisa {
+	padding-top: 19px;
+	padding-left: 630px;
+	
+}
+
 
 .leftcolumn {   
 	float: left;
@@ -199,18 +292,19 @@ section {
 .overlay {
 	position: absolute;
 	bottom: 100%;
-	left: 0;
-	right: 0;
+	left: 5px;
+	right: 2px;
 	background-color: rgb(168, 65, 17);
 	overflow: hidden;
 	width: 100%;
 	height:0;
 	transition: .5s ease;
+	top: 0.0%;
   }
   
 .container:hover .overlay {
-	bottom: 193px;
-	height: 211px;
+	bottom:200px;
+	height: 299px;
 	
   }
   
@@ -246,16 +340,18 @@ section {
 	right: 0;
 	background-color: rgb(168, 65, 17);
 	overflow: hidden;
-	width: 182px;
+	width: 249px;
 	height:0;
 	transition: .5s ease;
-	top: 6%;
+	top: 5.1%;
 	
   }
   
 #jv:hover #overlay {
+	left: 8px;
+	
 	bottom: 100%;
-	height: 160px;
+	height: 230px;
 	
   }
   
