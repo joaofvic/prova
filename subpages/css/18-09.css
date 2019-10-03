@@ -90,7 +90,7 @@
 	padding: 8px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
   opacity: 0.5;
-	
+		
   }
   .vertical-menu a :hover {
 	-webkit-transform: scale(1.0);
@@ -114,6 +114,7 @@
 	padding: 8px; /* Add some padding */
   text-decoration: none; /* remove underlines dos textos com links */
   opacity: 0.5;
+	
   }
   
 
@@ -122,6 +123,7 @@
     -ms-transform: scale(1.3);
     transform: scale(1.2);
   }
+
 
 #back {
 	background-image: url(../images/artigo1.png);
