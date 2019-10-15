@@ -2,6 +2,7 @@
 	margin: 0 auto; 
 	padding: 0; 
 	
+	
 }	
 
 
@@ -20,9 +21,8 @@
     display: block;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 19px;
 	letter-spacing:1.9px;
-	font-family: Prime;
+	font-family: 'Rajdhani', sans-serif;
 	
   }
   .menu > .menu-list > li{
@@ -57,17 +57,9 @@
   }
 
 
-
-
-
-
-
-
-
-
   .menu{
 	background: #eee;
-	height: 70px;
+	height: 73px;
 	
 	
   }
@@ -82,9 +74,9 @@
     display: block;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 18px; /*tamanho da fonte do menu inicial*/
-	letter-spacing:1.7px;
-	font-family: Prime;
+    font-size: 24px; /*tamanho da fonte do menu inicial*/
+	letter-spacing:1.9px;
+	font-family: 'Rajdhani', sans-serif;
 	
   }
   .menu > .menu-list > li{
@@ -141,7 +133,7 @@ font {
   
   .menu >.menu-list > li > .sub-menu > li > a {
 	  padding: 10px 20px;
-	  font-size: 18px;
+	  font-size: 22px;
   }
   .menu: {
     display: block;
@@ -178,7 +170,8 @@ font {
 }
 
 font {
-	font-family: Prime;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
 	
 }
 
@@ -245,35 +238,47 @@ section {
 	
 }
 
+#fundosite{
+
+	background-repeat:repeat-y;
+	background-attachment: fixed;
+	;
+	
+
+}
 
 .leftcolumn {   
 	float: left;
 	width: 65%;
+	
+
   }
 
 .rightcolumn {
 	float: right;
 	width: 25%;
-	background-color: #ffffff;
+	background-color:#aaa5ae;
 	padding-right: 17px;
+	
 	
   }
 
   .pedrolucas {
-	background-color: rgb(255, 255, 255);
+	background-color: #aaa5ae;
 	width: 100%;
 	padding: 0px;
   }
 
   .card {
-	background-color: white;
-	padding: 20px;
+	background-color: #BEBEBE; /*background onde fica as publicações*/
+	padding: 19px;
 	margin-top: 20px;
 	margin: 10px;
 	margin-left: 40px;
-	font-family: Prime;
+	font-family: 'Rajdhani', sans-serif;
 	text-decoration: none;
-  }
+right: a comida;  
+}
 
 /* Sobre nós */
 
@@ -289,24 +294,7 @@ section {
 	height: auto;
   }
   
-.overlay {
-	position: absolute;
-	bottom: 100%;
-	left: 5px;
-	right: 2px;
-	background-color: rgb(168, 65, 17);
-	overflow: hidden;
-	width: 100%;
-	height:0;
-	transition: .5s ease;
-	top: 0.0%;
-  }
-  
-.container:hover .overlay {
-	bottom:0px;
-	height: 0px;
-	
-  }
+
   
 .text {
 	white-space: nowrap; 
