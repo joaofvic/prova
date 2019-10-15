@@ -2,8 +2,10 @@
 	margin: 0 auto; 
 	padding: 0; 
 	
+	
 }	
 
+/*AJUSTES DO MENU INICIA AQUI*/
 
 .menu{
 	background: #eee;
@@ -20,9 +22,8 @@
     display: block;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 19px;
 	letter-spacing:1.9px;
-	font-family: Prime;
+	font-family: 'Rajdhani', sans-serif;
 	
   }
   .menu > .menu-list > li{
@@ -45,8 +46,6 @@
 	
   }
 
-
-
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
 	top: 70px;
@@ -57,21 +56,12 @@
   }
 
 
-
-
-
-
-
-
-
-
   .menu{
 	background: #eee;
-	height: 70px;
+	height: 73px;
 	
 	
   }
-
 
   .menu .menu-list, .menu .subzero{
 	list-style: none;
@@ -82,9 +72,9 @@
     display: block;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 18px; /*tamanho da fonte do menu inicial*/
-	letter-spacing:1.7px;
-	font-family: Prime;
+    font-size: 24px; /*tamanho da fonte do menu inicial*/
+	letter-spacing:1.9px;
+	font-family: 'Rajdhani', sans-serif;
 	
   }
   .menu > .menu-list > li{
@@ -107,8 +97,6 @@
 	
   }
 
-
-
   .menu > .menu-list > li > .subzero {
     position: absolute;
 	top: 60px;
@@ -119,18 +107,7 @@
 	
   } 
 
-
-
-
-
-
-
-
-
-
-
-
-  #language  {
+#language  {
 	  width: 210px;
   }
 
@@ -139,24 +116,27 @@ font {
 }
 
   
-  .menu >.menu-list > li > .sub-menu > li > a {
+.menu >.menu-list > li > .sub-menu > li > a {
 	  padding: 10px 20px;
-	  font-size: 18px;
+	  font-size: 22px;
   }
-  .menu: {
+.menu: {
     display: block;
     line-height: 0;
     height: 0;
-  }
+}
 
-  .site-content{
+.site-content{
     padding: 20px;
-  }
-  h1{
+}
+
+h1{
     font-size: 22px;
     color: #000;
-  }
+}
   
+/*AJUSTES DO MENU TERMINAM AQUI*/
+
 
 #time {
 	background-image: url("../images/gestãodotempo.png");
@@ -178,7 +158,8 @@ font {
 }
 
 font {
-	font-family: Prime;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 40px;
 	
 }
 
@@ -241,132 +222,71 @@ section {
 
 #pesquisa {
 	padding-top: 19px;
-	padding-left: 400px;
+	padding-left: 630px;
 	
 }
 
+#fundosite{
 
+	background-repeat:repeat-y;
+	background-attachment: fixed;
+	;
+	
+
+}
 
 .leftcolumn {   
 	float: left;
-	width: 65%;
-  }
+	width: 68%;
+}
 
 .rightcolumn {
 	float: right;
-	width: 25%;
-	background-color: #ffffff;
-	padding-right: 17px;
+	width: 28%;
+	background-color:#aaa5ae;
+	padding-right: 30px;
+	
 	
   }
 
-  .pedrolucas {
-	background-color: rgb(255, 255, 255);
-	width: 100%;
-	padding: 0px;
-  }
 
-  .card {
-	background-color: white;
-	padding: 20px;
+.card {
+	background-color: #BEBEBE; /*background onde fica as publicações*/
+	padding: 19px;
 	margin-top: 20px;
-	margin: 10px;
-	margin-left: 40px;
-	font-family: Prime;
+	margin: 7px;
+	margin-left: 58px;
+	font-family: 'Rajdhani', sans-serif;
 	text-decoration: none;
-  }
+  
+}
 
 /* Sobre nós */
 
-.container {
+#pl {
 	position: relative;
 	width: 100%;
 	margin: 10px;
+	right: 13px;
+	/*background-color: #aaa5ae;*/
   }
-  
-.image {
-	display: block;
-	width: 100%;
-	height: auto;
-  }
-  
-.overlay {
-	position: absolute;
-	bottom: 100%;
-	left: 5px;
-	right: 2px;
-	background-color: rgb(168, 65, 17);
-	overflow: hidden;
-	width: 100%;
-	height:0;
-	transition: .5s ease;
-	top: 0.0%;
-  }
-  
-.container:hover .overlay {
-	bottom:0px;
-	height: 0px;
-	
-  }
-  
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-  }
-
-/* jv */
 #jv {
 	position: relative;
 	width: 100%;
 	padding: 20px;
-  }
-  
+	right: 20px;
+	} 
+
 .image {
 	display: block;
-	width: 100%;
+	width: 85%;
 	height: auto;
   }
   
-#overlay {
-	position: absolute;
-	bottom: 100%;
-	left: 0;
-	right: 0;
-	background-color: rgb(168, 65, 17);
-	overflow: hidden;
-	width: 249px;
-	height:0;
-	transition: .5s ease;
-	top: 5.1%;
-	
-  }
   
-#jv:hover #overlay {
-	left: 8px;
-	
-	bottom: 0%;
-	height: 0px;
-	
-  }
+ 
+
   
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-  }
 
 .fakeimg #artigo1 {
 	padding-top: 0px;
@@ -380,42 +300,40 @@ section {
 	height: 100%;
 }
 
-a {
+a, p{
 	text-decoration: none;
 	color: #000;
+	font-size: 19px;
+}
+h2{
+	font-size: 25px;
 }
 
+#subirTopo {
+border-radius: 30px;
+text-decoration: none;
+background: white;
+bottom: 18px;
+right: 30px;
+float: right;
+color: #ccc;
+position: fixed;
+cursor: pointer;
+padding: 12px;
+opacity: 0.7;
+}
 
+#subirTopo:hover {
+opacity:5;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#fakeimg {
+	position: relative;
+	width: 100%;
+	padding:10px;
+	right: 20px;
+} 
 
 
 

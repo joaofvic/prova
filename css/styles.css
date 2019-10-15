@@ -5,6 +5,7 @@
 	
 }	
 
+/*AJUSTES DO MENU INICIA AQUI*/
 
 .menu{
 	background: #eee;
@@ -45,8 +46,6 @@
 	
   }
 
-
-
   .menu > .menu-list > li > .sub-menu {
     position: absolute;
 	top: 70px;
@@ -63,7 +62,6 @@
 	
 	
   }
-
 
   .menu .menu-list, .menu .subzero{
 	list-style: none;
@@ -99,8 +97,6 @@
 	
   }
 
-
-
   .menu > .menu-list > li > .subzero {
     position: absolute;
 	top: 60px;
@@ -111,17 +107,6 @@
 	
   } 
 
-
-
-
-
-
-
-
-
-
-
-
 #language  {
 	  width: 210px;
   }
@@ -131,24 +116,27 @@ font {
 }
 
   
-  .menu >.menu-list > li > .sub-menu > li > a {
+.menu >.menu-list > li > .sub-menu > li > a {
 	  padding: 10px 20px;
 	  font-size: 22px;
   }
-  .menu: {
+.menu: {
     display: block;
     line-height: 0;
     height: 0;
-  }
+}
 
-  .site-content{
+.site-content{
     padding: 20px;
-  }
-  h1{
+}
+
+h1{
     font-size: 22px;
     color: #000;
-  }
+}
   
+/*AJUSTES DO MENU TERMINAM AQUI*/
+
 
 #time {
 	background-image: url("../images/gestãodotempo.png");
@@ -249,111 +237,57 @@ section {
 
 .leftcolumn {   
 	float: left;
-	width: 65%;
-	
-
-  }
+	width: 68%;
+}
 
 .rightcolumn {
 	float: right;
-	width: 25%;
+	width: 28%;
 	background-color:#aaa5ae;
-	padding-right: 17px;
+	padding-right: 30px;
 	
 	
   }
 
-  .pedrolucas {
-	background-color: #aaa5ae;
-	width: 100%;
-	padding: 0px;
-  }
 
-  .card {
-	background-color: #BEBEBE; /*background onde fica as publicações*/
+.card {
+	background-color: #ccc; /*background onde fica as publicações*/
 	padding: 19px;
 	margin-top: 20px;
-	margin: 10px;
-	margin-left: 40px;
+	margin: 7px;
+	margin-left: 58px;
 	font-family: 'Rajdhani', sans-serif;
 	text-decoration: none;
-right: a comida;  
+	opacity: 0.9;
+  
 }
 
 /* Sobre nós */
 
-.container {
+#pl {
 	position: relative;
 	width: 100%;
 	margin: 10px;
+	right: 13px;
+	/*background-color: #aaa5ae;*/
   }
-  
-.image {
-	display: block;
-	width: 100%;
-	height: auto;
-  }
-  
-
-  
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-  }
-
-/* jv */
 #jv {
 	position: relative;
 	width: 100%;
 	padding: 20px;
-  }
-  
+	right: 20px;
+	} 
+
 .image {
 	display: block;
-	width: 100%;
+	width: 85%;
 	height: auto;
   }
   
-#overlay {
-	position: absolute;
-	bottom: 100%;
-	left: 0;
-	right: 0;
-	background-color: rgb(168, 65, 17);
-	overflow: hidden;
-	width: 249px;
-	height:0;
-	transition: .5s ease;
-	top: 5.1%;
-	
-  }
   
-#jv:hover #overlay {
-	left: 8px;
-	
-	bottom:0%;
-	height: 0px;
-	
-  }
+ 
+
   
-.text {
-	white-space: nowrap; 
-	color: white;
-	font-size: 20px;
-	position: absolute;
-	overflow: hidden;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-  }
 
 .fakeimg #artigo1 {
 	padding-top: 0px;
@@ -367,20 +301,31 @@ right: a comida;
 	height: 100%;
 }
 
-a {
+a, p{
 	text-decoration: none;
 	color: #000;
+	font-size: 19px;
+}
+h2{
+	font-size: 25px;
 }
 
+#subirTopo {
+border-radius: 30px;
+text-decoration: none;
+background: white;
+bottom: 18px;
+right: 30px;
+float: right;
+color: #ccc;
+position: fixed;
+cursor: pointer;
+padding: 12px;
+opacity: 0.7;
+}
 
-
-
-
-
-
-
-
-
+#subirTopo:hover {
+opacity:5;
 
 
 
