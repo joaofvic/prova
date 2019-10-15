@@ -1,6 +1,4 @@
 
-
-
 * { 
 	margin: 0 auto; 
   padding: 0; 
@@ -10,7 +8,7 @@
 
 .menu{
 	background: #eee;
-	height: 70px;
+	height: 73px;
 	
 	
   }
@@ -23,9 +21,9 @@
     display: block;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 19px;
-	letter-spacing:1.9px;
-	font-family: Prime;
+    font-size: 24px;
+	  letter-spacing:1.9px;
+	  font-family: 'Rajdhani', sans-serif;
 	
   }
   .menu > .menu-list > li{
@@ -138,13 +136,19 @@ padding-top: 0px;
 
 
 h1{
-  font-family: Agency FB;
+  font-family: 'Rajdhani', sans-serif;
 }
+
+i{
+  font-family: 'Rajdhani', sans-serif;
+}
+
 p {
-  font-family: Bahnschrift;
+  font-family: 'Rajdhani', sans-serif;
 }
  #conteudopt {
   background-image: radial-gradient( circle farthest-corner at 10% 20%, #6d7958 0%, #68e5ae 90% );
+  padding-right: 9px;
  }
  #conteudoeng {
   background-image: linear-gradient( 89.7deg, rgba(64,177,229,1) 6.5%, rgba(28,117,187,1) 44.1% );
@@ -153,3 +157,31 @@ p {
 #conteudoesp {
   background-image: linear-gradient( 177.2deg, rgba(252,116,3,1) 22.7%, rgba(246,200,30,1) 110.5% );
 }
+
+#tr,td {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#subirTopo {
+  border-radius: 30px;
+  text-decoration: none;
+  background: #D3D3D3;
+  bottom: 18px;
+  right: 30px;
+  float: right;
+  color: #ccc;
+  position: fixed;
+  cursor: pointer;
+  padding: 12px;
+  opacity: 0.7;
+  }
+  
+  #subirTopo:hover {
+  opacity:5;
+  
+  
+  
+  
+  
+  
+  
